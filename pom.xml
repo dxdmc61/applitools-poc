@@ -57,7 +57,7 @@
                             <arguments>
                                 <argument>-cp</argument>
                                 <classpath/>
-                                <argument>com.applitools.example.AbbottFreestyleTests</argument>
+                                <argument>com.applitools.example.Stylex</argument>
                             </arguments>
                         </configuration>
                     </execution>
