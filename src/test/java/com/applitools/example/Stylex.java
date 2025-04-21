@@ -64,7 +64,7 @@ public class Stylex {
                 String url = entry.getValue();
 
                 System.out.println("Navigating to: " + pageName + " => " + url);
-                eyes.open(driver, "Abbott Freestyle", pageName, new RectangleSize(1366, 768));
+                eyes.open(driver, "Stylex Project", pageName, new RectangleSize(1366, 768));
                 driver.get(url);
                 Thread.sleep(3000); // Optional wait for page to load
                 eyes.check(Target.window().fully().withName(pageName));
