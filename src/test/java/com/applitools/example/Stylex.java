@@ -67,7 +67,7 @@ public class Stylex {
                 eyes.open(driver, "Stylex Project", pageName, new RectangleSize(1366, 768));
                 driver.get(url);
                 Thread.sleep(3000); // Optional wait for page to load
-                eyes.check(Target.window().fully().withName(pageName));
+                eyes.check(Target.window().fully().withName(pageName)); 
                 eyes.closeAsync();
             }
 
