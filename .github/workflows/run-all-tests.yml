@@ -29,3 +29,6 @@ jobs:
         env:
           APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
           HEADLESS: true
+          
+      - name: Clean up
+        run: kill $(lsof -t -i:4444)
