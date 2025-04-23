@@ -69,7 +69,7 @@ public class Stylex {
                 Thread.sleep(3000); // Optional wait for page to load
                 eyes.check(Target.window().fully().withName(pageName)); 
                 eyes.closeAsync();
-            }
+            } 
 
         } catch (Exception e) { 
             e.printStackTrace();
