@@ -71,7 +71,7 @@ public class Stylex {
                 eyes.closeAsync();
             }
 
-        } catch (Exception e) {
+        } catch (Exception e) { 
             e.printStackTrace();
             eyes.abortAsync();
         } finally {
